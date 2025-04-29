@@ -20,6 +20,7 @@ void setup() {
 
 void loop() {
   val = vl.readRange();
+  Serial.println(val);
 
   delay(100);
 
