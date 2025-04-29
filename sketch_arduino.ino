@@ -10,6 +10,7 @@ int distanceThreshold = 100;
 
 void setup() {
   Serial.begin(9600);
+  vl.begin();
 
   pinMode(8, OUTPUT);  // Grön lampa
   pinMode(9, OUTPUT);  // Röd lampa
